@@ -1177,7 +1177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2206a331628fc2f49b7485a5291e551e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  satisfaction: 50
+  satisfaction: 20
   satisText: {fileID: 164525556}
 --- !u!1 &1101480266
 GameObject:
