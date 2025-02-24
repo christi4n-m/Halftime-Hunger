@@ -31,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
         rb.linearVelocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
     }
 
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Collectible"))
@@ -39,5 +40,5 @@ public class PlayerMovement : MonoBehaviour
             am.appleCount++;
         }
     }
-
+   
 }
